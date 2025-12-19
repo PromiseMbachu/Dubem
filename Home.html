@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">Favour Nwachukwu</div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;Menu</div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="text">
+            <h1>Brand Copywriter And Creative Strategists</h1>
+            <h2>Hey, I'm Favour Nwachukwu, the brand copywriter who doesn't just hand you words in exchange for a paycheck</h2>
+            <h2>I give you clarity that Converts</h2>
+            <button><a href="about.html">Learn more</a></button>
+        </div>
+        <div class="pic">
+            <img src="pic.jpg"/>
+        </div>
+    </div>
+    <div class="bottom">
+        <h1>MEET THE MIND BEHIND THE WORDS</h1>
+            <h2>Not Just "Another Copywriter"</h2>
+            <h3 class="catchy">Helping brands find their human voice, build trust and drive effortless sales</h3>
+    </div>
+</body>
+<script>
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('ul');
+
+    toggle.addEventListener('click', () => {nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';})
+</script>
+</html>
